@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f5f0; /* Beige background */
+    color: #333;
+}
+
+header {
+    background-color: #ffebeb; /* Light pink header */
+    color: #333;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff; /* White background for content */
+    border: 1px solid #ddd; /* Light border */
+}
+
+main section {
+    margin-bottom: 2rem;
+}
+
+main section h2 {
+    color: #ff6f6f; /* Light pink headings */
+    border-bottom: 2px solid #ff6f6f;
+    padding-bottom: 0.5rem;
+}
+
+main section p {
+    line-height: 1.6;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #ffebeb; /* Light pink footer */
+    color: #333;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.small-img {
+    max-width: 500%; /* Adjust as needed */
+    height: auto;
+    display: block;
+    margin: 1rem auto; /* Center the image horizontally */
+}

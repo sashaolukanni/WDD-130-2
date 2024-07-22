@@ -1,0 +1,142 @@
+/*  font */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,600&family=Roboto:wght@300&family=Tapestry&display=swap');
+
+
+
+
+body{ 
+    background-color: #f4dada;
+    font-family: 'Libre Bodoni' ;
+}
+header{
+    background-color: #e46b6b;
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-family: 'Roboto';
+}
+nav{
+    background-color: #e46b6b;
+    display: flex;
+    justify-content:space-around ;
+    font-family: Roboto;
+}
+nav a{
+    color: #000000;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 2em;
+
+}
+nav a:hover {
+    background-color: white;
+}
+#logo{
+    width: 80px;
+    margin: 20px;
+}
+/*-----------MAIN home---------------*/
+
+/*---------title home--------*/
+.h1-home{
+    color:#c7810f ;
+    font-size: 4em;
+    text-align: center;
+    font-family: Libre Bodoni;
+    
+}
+/*-----paragraph 1---------*/
+.para-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    margin: 2em;
+    margin-top: 10em;
+    font-family: Roboto;
+    border-radius: 20px;
+}
+p{
+    grid-column: 1/2;
+    font-size: 2em;
+    margin: auto 2em;
+    text-align: center;
+}
+.para-1 img{
+    width: 50%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding:auto;
+    border: #e46b6b;
+    border-radius: 20px;
+    margin-top: 20%;
+}
+.para-2{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em;
+    margin-top: 10em;
+    font-family: Roboto;
+}
+.para-2 p{
+    grid-column: 2/3;
+}
+.para-2 img{
+    width: 50%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: #e46b6b;
+    border-radius: 20px;
+    margin-top: 20%;
+}
+.second-image img{
+    width: 30%;
+    border-radius: 30px;
+    
+}
+/*------------hero-----------*/
+.home-image1 img{
+    width: 30%;
+    border-radius: 30px;
+   
+}
+/* footer */
+footer {
+   background-color: #e46b6b;
+   display: grid; 
+   grid-template-columns: 1fr 1fr;
+   font-family: Roboto;
+
+}
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+  }
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }  
+footer a {
+    color: #000000;
+    margin: 20px;
+    text-decoration: none;
+}
+footer h3 {
+    color: #000000;
+    text-align: center;
+}
+.social{
+    grid-column: 2/3;
+}
+
+footer h3 a:hover {
+   
+    text-decoration: underline;
+}
