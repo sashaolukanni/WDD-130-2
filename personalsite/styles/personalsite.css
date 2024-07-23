@@ -1,24 +1,22 @@
-/*  font */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,600&family=Roboto:wght@300&family=Tapestry&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400;700&family=Kalam:wght@300;400;700&display=swap');
 
 
 body{ 
     background-color: #f4dada;
-    font-family: 'Libre Bodoni' ;
+    font-family: 'Kalam' ;
 }
 header{
     background-color: #e46b6b;
     display: grid;
     grid-template-columns: 150px auto;
-    font-family: 'Roboto';
+    font-family: 'Edu Australia VIC WA NT Hand';
 }
 nav{
     background-color: #e46b6b;
     display: flex;
     justify-content:space-around ;
-    font-family: Roboto;
+    font-family: 'Edu Australia VIC WA NT Hand';
 }
 nav a{
     color: #000000;
@@ -38,10 +36,10 @@ nav a:hover {
 
 /*---------title home--------*/
 .h1-home{
-    color:#c7810f ;
+    color:#000000 ;
     font-size: 4em;
     text-align: center;
-    font-family: Libre Bodoni;
+    font-family: 'Edu Australia VIC WA NT Hand';
     
 }
 /*-----paragraph 1---------*/
@@ -56,7 +54,7 @@ nav a:hover {
 }
 p{
     grid-column: 1/2;
-    font-size: 2em;
+    font-size: 1em;
     margin: auto 2em;
     text-align: center;
 }
@@ -75,10 +73,11 @@ p{
     grid-template-columns: 1fr 1fr;
     margin: 2em;
     margin-top: 10em;
-    font-family: Roboto;
+    font-family: 'Edu Australia VIC WA NT Hand';
 }
 .para-2 p{
     grid-column: 2/3;
+    font-size: 1em;
 }
 .para-2 img{
     width: 50%;
@@ -104,7 +103,7 @@ footer {
    background-color: #e46b6b;
    display: grid; 
    grid-template-columns: 1fr 1fr;
-   font-family: Roboto;
+   font-family: 'Edu Australia VIC WA NT Hand';
 
 }
 .chip {
