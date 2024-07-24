@@ -16,7 +16,7 @@ nav{
     background-color: #e46b6b;
     display: flex;
     justify-content:space-around ;
-    font-family: 'Edu Australia VIC WA NT Hand';
+    font-family: '';
 }
 nav a{
     color: #000000;
@@ -36,10 +36,10 @@ nav a:hover {
 
 /*---------title home--------*/
 .h1-home{
-    color:#000000 ;
+    color:#c7810f ;
     font-size: 4em;
     text-align: center;
-    font-family: 'Edu Australia VIC WA NT Hand';
+    font-family: Libre Bodoni;
     
 }
 /*-----paragraph 1---------*/
@@ -54,7 +54,7 @@ nav a:hover {
 }
 p{
     grid-column: 1/2;
-    font-size: 1em;
+    font-size: 2em;
     margin: auto 2em;
     text-align: center;
 }
@@ -73,11 +73,10 @@ p{
     grid-template-columns: 1fr 1fr;
     margin: 2em;
     margin-top: 10em;
-    font-family: 'Edu Australia VIC WA NT Hand';
+    font-family: Roboto;
 }
 .para-2 p{
     grid-column: 2/3;
-    font-size: 1em;
 }
 .para-2 img{
     width: 50%;
@@ -103,7 +102,7 @@ footer {
    background-color: #e46b6b;
    display: grid; 
    grid-template-columns: 1fr 1fr;
-   font-family: 'Edu Australia VIC WA NT Hand';
+   font-family: Roboto;
 
 }
 .chip {
